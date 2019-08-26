@@ -3,7 +3,7 @@ import os, signal, sys
 def start():
    parent()
 def child():
-   print('\nA new child %d' % os.getpid())
+   print('\n############################## A new child %d ##############################' % os.getpid())
 
 def finish():
    print('Finishing the program...')
